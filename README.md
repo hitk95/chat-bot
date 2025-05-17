@@ -24,6 +24,7 @@ Build your own AI chatbot that answers questions using scraped web content — p
 ```bash
 git clone https://github.com/hitk95/chat-bot.git
 cd chat-bot
+```
 
 ---
 
@@ -43,7 +44,6 @@ curl -fsSL https://ollama.com/install.sh | sh
 
 #### On Windows:
 - Download installer from [https://ollama.com/download](https://ollama.com/download)
-- OR use command curl -fsSL https://ollama.com/install.sh | sh (On Linux)
 - Then run in terminal:
 ```bash
 ollama run mistral
@@ -64,7 +64,7 @@ python app/scraper.py
 - `data/chunks.pkl` (text chunks)
 - `data/index.faiss` (vector index)
 
-## FOR NOW CANADA WIKI PAGE IS ALREADY SCRAPPED AND AVAILABLE IN THE REPOSITORY STRUCTURE
+#### FOR NOW CANADA WIKI PAGE IS ALREADY SCRAPPED AND AVAILABLE IN THE REPOSITORY STRUCTURE
 
 ---
 
